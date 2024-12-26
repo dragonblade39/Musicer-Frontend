@@ -1,0 +1,34 @@
+.welcome {
+    /* background-color: antiquewhite; */
+}
+
+.text-welcome {
+    text-shadow: 3px 2px 5px rgba(202, 108, 42, 0.53);
+
+}
+
+.text-welcome h1,span {
+    font-family: 'poppins', sans-serif;
+    font-size: 36px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 10px;
+
+    /* justify-content: flex-end; */
+
+
+}
+.text-welcome h1{
+    margin-left:-30px;
+}
+
+
+/* .greeting{
+    margin-left:420px !important;
+} */

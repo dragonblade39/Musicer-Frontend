@@ -1,0 +1,48 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  /* Add margin for spacing between items */
+}
+
+.album-image {
+  width: 50px;
+  /* Set a specific width for the album image */
+  height: 50px;
+  /* Set a specific height for the album image */
+  margin-right: 10px;
+  /* Add margin for spacing between the image and text */
+}
+
+.btn.delet {
+  background-color: red;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+.btn.delet:hover {
+  background-color: rgb(215, 2, 2);
+  box-shadow: none;
+  width: auto
+}
+
+.btn.play {
+  background-color: green;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+.btn.play:hover {
+  background-color: darkgreen;
+  box-shadow: none;
+  width: auto
+}
+
+.big-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
